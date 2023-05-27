@@ -9,8 +9,6 @@ body {
   width: 90%;
   margin: 0 auto;
   padding: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 #header {
@@ -108,6 +106,21 @@ button {
   height: 130px;
 }
 
+.title_four {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  text-align: center;
+  color: #1f2e35;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -115,10 +128,16 @@ button {
 }
 
 .card h1 {
+  width: 145px;
   height: 37px;
-  width: 151px;
+  left: 24px;
+  top: 139px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
   font-size: 28px;
-  font-weight: 500px;
+  line-height: 133.69%;
+  color: #ee4248;
 }
 
 .card img {
@@ -127,11 +146,79 @@ button {
 }
 
 .card p {
-  margin-top: 15px;
-  width: 318px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+  width: 319px;
   height: 108px;
+  left: 24px;
+  top: 191px;
 }
 
-.cards {
+#section_five {
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.besh_bir {
+  width: 259px;
+  height: 21px;
+  left: 1px;
+  top: 94px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #263238;
+}
+
+.besh_eki {
+  width: 317px;
+  height: 54px;
+  left: 1px;
+  top: 123px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+
+.besh_uch h2 {
+  width: 85px;
+  height: 28px;
+  left: 365px;
+  top: 51px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #263238;
+}
+
+.besh_uch p {
+  width: 269px;
+  height: 81px;
+  left: 365px;
+  top: 94px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+
+.section_five {
   display: flex;
+}
+
+#footer {
+  background-color: #27643e;
+  padding-top: 2px;
+}
+
+.footerr {
+  width: 382px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f2eded;
+  margin-left: 350px;
 }
